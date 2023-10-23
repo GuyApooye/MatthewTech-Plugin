@@ -1,4 +1,4 @@
-package org.guyapooye.mtp.blocks.loaders.recipies;
+package org.guyapooye.mtp.loaders.recipes;
 
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.item.Item;
@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.Block;
 import org.bukkit.inventory.ItemStack;
 import org.guyapooye.mtp.blocks.MTBlock;
 import org.guyapooye.mtp.items.MTItem;
-import org.guyapooye.mtp.recipes.MTShapedRecipe;
+import org.guyapooye.mtp.recipes.types.MTShapedRecipe;
 
 import javax.annotation.Nonnull;
 import java.util.*;

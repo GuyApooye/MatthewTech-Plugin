@@ -1,4 +1,4 @@
-package org.guyapooye.mtp.recipes;
+package org.guyapooye.mtp.recipes.types;
 
 
 import com.google.common.collect.Maps;
@@ -109,11 +109,31 @@ public class MTShapedRecipe extends ShapedRecipe {
     }
     public static Ingredient getIngredient(Object obj) {
         if(obj instanceof Ingredient ing) return ing;
-        if(obj instanceof net.minecraft.world.item.ItemStack ing) return Ingredient.of(ing.copy());
-        if(obj instanceof MTItem ing) return Ingredient.of(ing.getModifiableItem());
-        if(obj instanceof MTBlock ing) return Ingredient.of(ing.getBlockItem().getModifiableItem());
-        if(obj instanceof Item ing) return Ingredient.of(new net.minecraft.world.item.ItemStack(ing));
-        if(obj instanceof Block ing) return Ingredient.of(new net.minecraft.world.item.ItemStack(ing.asItem()));
+        if(obj instanceof net.minecraft.world.item.ItemStack ing) {
+            Ingredient i = Ingredient.of(ing.copy());
+            i.exact = true;
+            return i;
+        }
+        if(obj instanceof MTItem ing) {
+            Ingredient i = Ingredient.of(ing.getModifiableItem().copy());
+            i.exact = true;
+            return i;
+        }
+        if(obj instanceof MTBlock ing) {
+            Ingredient i = Ingredient.of(ing.getBlockItem().getModifiableItem().copy());
+            i.exact = true;
+            return i;
+        }
+        if(obj instanceof Item ing) {
+            Ingredient i = Ingredient.of(ing);
+            i.exact = true;
+            return i;
+        }
+        if(obj instanceof Block ing) {
+            Ingredient i = Ingredient.of(ing);
+            i.exact = true;
+            return i;
+        }
         return null;
     }
     public static final class ShapedRecipeData {

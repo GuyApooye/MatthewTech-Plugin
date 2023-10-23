@@ -5,59 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c876dce-677d-4277-b25b-8d13e29e8a63" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/loaders/recipes/RecipeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/loaders/recipes/ShapedRecipes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../World Gen/.idea/modules/World_Gen.main.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../World Gen/.idea/modules/World_Gen.test.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mc.apptoeat.com.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.github/workflows/build.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.github/workflows/manage_issues.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.github/workflows/release.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HEADER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/manage_issues.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/manage_issues.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/release.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HEADER" beforeDir="false" afterPath="$PROJECT_DIR$/../HEADER" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/MatthewTechPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/MatthewTechPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/loaders/recipies/RecipeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/loaders/recipes/RecipeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/loaders/recipies/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/recipes/MTShapedRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/recipes/types/MTShapedRecipe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../checkstyle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/minecraft-test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/minecraft-test/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/minecraft-test/src/main/java/net/fabricmc/minecraft/test/mixin/MixinGuiMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/minecraft-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/minecraft-test/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/minecraft-test/src/main/java/net/fabricmc/minecraft/test/mixin/MixinGrassBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/minecraft-test/src/main/java/net/fabricmc/minecraft/test/mixin/MixinGrassBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/minecraft-test/src/main/resources/fabric.mod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/minecraft-test/src/main/resources/fabricmc.test.mixins.client.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/minecraft-test/src/main/resources/fabricmc.test.mixins.client.json" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/minecraft-test/src/main/resources/fabricmc.test.mixins.client.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/BundlerClassPathCapture.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/BundlerProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/Log4jLogHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/McLibrary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/McLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/McLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/McVersion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/McVersionLookup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/MinecraftGameProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/McVersionLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/McVersionLookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/MinecraftGameProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/MinecraftGameProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/Slf4jLogHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/applet/AppletForcedShutdownListener.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/applet/AppletFrame.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/applet/AppletLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/applet/AppletMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/applet/AppletMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/applet/AppletMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/launchwrapper/FabricClassTransformer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/launchwrapper/FabricClientTweaker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/launchwrapper/FabricServerTweaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/launchwrapper/FabricTweaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/launchwrapper/FabricTweaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/launchwrapper/FabricTweaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/patch/BrandingPatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/patch/EntrypointPatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/patch/EntrypointPatchFML125.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/patch/EntrypointPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/patch/EntrypointPatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/patch/EntrypointPatchFML125.java" beforeDir="false" afterPath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/patch/EntrypointPatchFML125.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/java/net/fabricmc/loader/impl/game/minecraft/patch/ModClassLoader_125_FML.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/legacyJava/net/fabricmc/loader/launch/FabricClientTweaker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/legacyJava/net/fabricmc/loader/launch/FabricServerTweaker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/main/resources/META-INF/services/net.fabricmc.loader.impl.game.GameProvider" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../minecraft/src/test/java/net/fabricmc/test/McVersionLookupTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../proguard.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/api/ClientModInitializer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/api/DedicatedServerModInitializer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/api/EnvType.java" beforeDir="false" />
@@ -66,7 +72,7 @@
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/api/EnvironmentInterfaces.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/api/ModInitializer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/EntrypointException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/FabricLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/FabricLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/FabricLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/LanguageAdapter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/LanguageAdapterException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/MappingResolver.java" beforeDir="false" />
@@ -87,8 +93,8 @@
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/metadata/version/VersionComparisonOperator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/metadata/version/VersionInterval.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/api/metadata/version/VersionPredicate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/FabricLoaderImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/FormattedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/FabricLoaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/FabricLoaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/FormattedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/FormattedException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/MappingResolverImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/ModContainerImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/ObjectShareImpl.java" beforeDir="false" />
@@ -100,35 +106,34 @@
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/Explanation.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModCandidate.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModCandidateFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModDiscoverer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModDiscoverer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModDiscoverer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModLoadCondition.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModResolutionException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ModSolver.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/ResultAnalyzer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/discovery/RuntimeModRemapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/entrypoint/EntrypointContainerImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/entrypoint/EntrypointStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/entrypoint/EntrypointUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/GameProvider.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/GameProviderHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/LibClassifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/LoaderLibrary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/LibClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/LibClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/LoaderLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/LoaderLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/patch/GamePatch.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/game/patch/GameTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/gui/FabricGuiEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/gui/FabricGuiEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/gui/FabricGuiEntry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/gui/FabricMainWindow.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/gui/FabricStatusTree.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/gui/package-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/FabricLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/FabricLauncherBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/FabricLauncherBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/FabricLauncherBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/FabricMixinBootstrap.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/MappingConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/DummyClassLoader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/FabricGlobalPropertyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/Knot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/KnotClassDelegate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/KnotClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/Knot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/Knot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/KnotClassDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/KnotClassDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/KnotClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/KnotClassLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/KnotClassLoaderInterface.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/KnotClient.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/launch/knot/KnotCompatibilityClassLoader.java" beforeDir="false" />
@@ -148,12 +153,12 @@
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/ContactInfoBackedPerson.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/ContactInformationImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/CustomValueImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/DependencyOverrides.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/DependencyOverrides.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/DependencyOverrides.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/EntrypointMetadata.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/LoaderModMetadata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/MetadataVerifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/MetadataVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/MetadataVerifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/ModDependencyImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/ModMetadataParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/ModMetadataParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/ModMetadataParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/ModOriginImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/NestedJarEntry.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/ParseMetadataException.java" beforeDir="false" />
@@ -162,7 +167,7 @@
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/V0ModMetadata.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/V0ModMetadataParser.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/V1ModMetadata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/V1ModMetadataParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/V1ModMetadataParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/V1ModMetadataParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/metadata/VersionOverrides.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/transformer/ClassStripper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/transformer/EnvironmentStrippingData.java" beforeDir="false" />
@@ -172,12 +177,12 @@
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/DefaultLanguageAdapter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/ExceptionUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/FileSystemUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/LoaderUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/Localization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/LoaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/LoaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/Localization.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/Localization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/ManifestUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/SimpleClassPath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/StringUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/SystemProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/SystemProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/SystemProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/UrlConversionException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/UrlUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/log/BuiltinLogHandler.java" beforeDir="false" />
@@ -186,7 +191,7 @@
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/log/LogCategory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/log/LogHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/log/LogLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/mappings/MixinIntermediaryDevRemapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/mappings/MixinIntermediaryDevRemapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/mappings/MixinIntermediaryDevRemapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/mappings/TinyRemapperMappingsHelper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/version/SemanticVersionImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/net/fabricmc/loader/impl/util/version/StringVersion.java" beforeDir="false" />
@@ -218,10 +223,10 @@
       <change beforePath="$PROJECT_DIR$/../src/main/resources/META-INF/services/org.spongepowered.asm.service.IMixinService" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/resources/META-INF/services/org.spongepowered.asm.service.IMixinServiceBootstrap" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/fabricloader/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/fabric-installer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/fabric-installer.launchwrapper.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/fabric.mod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/net/fabricmc/loader/Messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/fabric-installer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/fabric-installer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/fabric-installer.launchwrapper.json" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/fabric-installer.launchwrapper.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/net/fabricmc/loader/Messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/net/fabricmc/loader/Messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/resources/ui/icon/decoration/fabric_x8.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/resources/ui/icon/decoration/level_error_x8.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/resources/ui/icon/decoration/level_info_x8.png" beforeDir="false" />
@@ -245,7 +250,7 @@
       <change beforePath="$PROJECT_DIR$/../src/test/java/net/fabricmc/test/CustomEntry.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/test/java/net/fabricmc/test/EntrypointTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/test/java/net/fabricmc/test/TestMod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/net/fabricmc/test/V1ModJsonParsingTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/net/fabricmc/test/V1ModJsonParsingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/net/fabricmc/test/V1ModJsonParsingTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/test/java/net/fabricmc/test/VersionParsingTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/test/resources/fabric.mod.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/test/resources/testing/parsing/README.md" beforeDir="false" />
