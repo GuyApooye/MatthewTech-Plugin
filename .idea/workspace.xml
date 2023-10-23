@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c876dce-677d-4277-b25b-8d13e29e8a63" name="Changes" comment="fixed stuff idk" />
+    <list default="true" id="1c876dce-677d-4277-b25b-8d13e29e8a63" name="Changes" comment="fixed stuff idk">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="gregtechplugin package" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="matthewftechplugin package" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -87,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1694699837849</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed stuff idk">
+      <created>1698083806490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698083806490</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">

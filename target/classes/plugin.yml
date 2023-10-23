@@ -1,0 +1,6 @@
+name: MatthewTechPlugin
+version: '1.0-SNAPSHOT'
+main: org.guyapooye.mtp.MatthewTechPlugin
+api-version: '1.20'
+authors: [GuyApooye]
+description: mtp
