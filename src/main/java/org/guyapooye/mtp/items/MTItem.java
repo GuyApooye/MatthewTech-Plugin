@@ -11,8 +11,8 @@ import org.guyapooye.mtp.blocks.MTBlock;
 
 import java.util.Objects;
 
-import static org.guyapooye.mtp.utils.MTBlocks.registeredBlocks;
-import static org.guyapooye.mtp.utils.MTItems.registeredItems;
+import static org.guyapooye.mtp.blocks.MTBlocks.registeredBlocks;
+import static org.guyapooye.mtp.items.MTItems.registeredItems;
 
 public class MTItem implements MTItemLike {
     @Getter
@@ -33,7 +33,7 @@ public class MTItem implements MTItemLike {
         this.id = id;
         this.modifiableItem = CraftItemStack.asNMSCopy(itemStack);
         this.name = name;
-        this.tag = item.getOrCreateTag();
+        this.tag = modifiableItem.getOrCreateTag();
         tag.put("MT", new CompoundTag());
         tag.getCompound("MT").putString("id",id);
         this.modifiableItem.setTag(tag);

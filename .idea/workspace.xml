@@ -5,7 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c876dce-677d-4277-b25b-8d13e29e8a63" name="Changes" comment="fixed stuff idk">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/tileentities/SimpleMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/tileentities/WorkableTieredTileEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/tileentities/machines/MaceratorTileEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/gui/BackgroundSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/gui/OutputSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/gui/TileEntityMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/MatthewTechPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/MatthewTechPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/MTBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/MTBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/MTTileEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/tileentities/MTTileEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/TieredTileEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/tileentities/TieredTileEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/TileEntityTiered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/tileentities/TileEntityTiered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/machines/SimpleMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/events/BlockGUIInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/events/BlockGUIInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/events/MTBlockInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/events/MTBlockInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/items/MTItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/items/MTItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/items/MTItemStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/items/MTItemStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/loaders/recipes/ShapedRecipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/loaders/recipes/ShapedRecipes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/recipes/ingredients/MTRecipeIDInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/recipes/ingredients/MTRecipeIDInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/utils/MTBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/blocks/MTBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/utils/MTItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/items/MTItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/utils/MTLocationFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/utils/MTLocationFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/utils/MTUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/guyapooye/mtp/utils/MTUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/MatthewTechPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/MatthewTechPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/blocks/MTBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/blocks/MTBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/events/BlockGUIInteraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/events/BlockGUIInteraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/events/MTBlockInteraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/events/MTBlockInteraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/items/MTItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/items/MTItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/items/MTItemStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/items/MTItemStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/loaders/recipes/ShapedRecipes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/loaders/recipes/ShapedRecipes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/recipes/ingredients/MTRecipeIDInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/recipes/ingredients/MTRecipeIDInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/utils/MTLocationFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/utils/MTLocationFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/utils/MTUtils$EnumValidationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/utils/MTUtils$EnumValidationResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/utils/MTUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/guyapooye/mtp/utils/MTUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +78,14 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.guyapooye.mtp.utils" />
+      <recent name="org.guyapooye.mtp.blocks.tileentities.machines" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.guyapooye.mtp.items" />
     </key>
@@ -81,6 +118,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\nirm\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1c876dce-677d-4277-b25b-8d13e29e8a63" name="Changes" comment="" />
@@ -96,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698083806490</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed stuff idk">
+      <created>1698084222086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698084222086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -116,6 +163,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="fixed stuff idk" />

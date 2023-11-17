@@ -3,7 +3,6 @@ package org.guyapooye.mtp.blocks;
 import lombok.Getter;
 import org.guyapooye.mtp.items.MTBlockItem;
 import org.guyapooye.mtp.items.MTItemLike;
-import org.guyapooye.mtp.utils.MTBlocks;
 
 
 public class MTBlock implements MTItemLike {

@@ -8,12 +8,13 @@ import org.bukkit.craftbukkit.v1_20_R1.CraftWorld;
 import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftItemStack;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.block.Action;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
-import org.guyapooye.mtp.blocks.MTTileEntity;
-import org.guyapooye.mtp.blocks.TieredTileEntity;
-import org.guyapooye.mtp.utils.MTBlocks;
+import org.guyapooye.mtp.blocks.tileentities.MTTileEntity;
+import org.guyapooye.mtp.blocks.tileentities.TieredTileEntity;
+import org.guyapooye.mtp.blocks.MTBlocks;
 import org.guyapooye.mtp.utils.MTUtils;
 
 import java.util.*;
@@ -64,13 +65,13 @@ public class MTBlockInteraction implements Listener {
     }
     @EventHandler
     public void blockInteract(PlayerInteractEvent e) {
-        if(e.getClickedBlock() == null) return;
+        if(e.getClickedBlock() == null || e.getAction() != Action.RIGHT_CLICK_BLOCK) return;
         CraftWorld w = (CraftWorld) e.getClickedBlock().getWorld();
         BlockEntity b = w.getHandle().getBlockEntity(new BlockPos(e.getClickedBlock().getX(),e.getClickedBlock().getY(),e.getClickedBlock().getZ()));
         if(b!=null) {
             if(!b.saveWithFullMetadata().getCompound("PublicBukkitValues").contains("MT")) return;
             MTTileEntity tileEntity = ((MTTileEntity) MTBlocks.registeredBlocks.get(b.saveWithFullMetadata().getCompound("PublicBukkitValues").getCompound("MT").getString("id")));
-            tileEntity.rightClick(e.getPlayer());
+            tileEntity.rightClick(e.getPlayer(), e.getClickedBlock().getLocation());
             e.setCancelled(true);
         }
     }

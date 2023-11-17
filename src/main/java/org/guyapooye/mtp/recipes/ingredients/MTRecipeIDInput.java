@@ -1,12 +1,10 @@
 package org.guyapooye.mtp.recipes.ingredients;
 
-import net.minecraft.world.item.ItemStack;
-import org.guyapooye.mtp.items.MTItem;
 import org.guyapooye.mtp.items.MTItemStack;
 
 import java.util.Objects;
 
-import static org.guyapooye.mtp.utils.MTItems.registeredItems;
+import static org.guyapooye.mtp.items.MTItems.registeredItems;
 
 public class MTRecipeIDInput extends MTRecipeInput{
     String id;

@@ -1,9 +1,11 @@
-package org.guyapooye.mtp.utils;
+package org.guyapooye.mtp.items;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import org.guyapooye.mtp.blocks.MTBlocks;
 import org.guyapooye.mtp.items.MTBlockItem;
 import org.guyapooye.mtp.items.MTItem;
+import org.guyapooye.mtp.utils.MTValues;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,12 +19,6 @@ public class MTItems {
         return mtItem;
     }
 
-    protected static MTBlockItem registerBlockItemAndBlock(String id, ItemStack item, String name) {
-        MTBlockItem mtItem = new MTBlockItem(id, item, name);
-        registeredItems.put(mtItem.getID(), mtItem);
-        MTBlocks.registerBlock(mtItem);
-        return mtItem;
-    }
     protected static MTBlockItem registerBlockItem(String id, ItemStack item, String name) {
         MTBlockItem mtItem = new MTBlockItem(id, item, name);
         registeredItems.put(mtItem.getID(), mtItem);
@@ -40,11 +36,10 @@ public class MTItems {
     public static final MTItem TEST_TIERED_LUV;
     public static final MTItem TEST_TIERED_ZPM;
     public static final MTItem TEST_TIERED_UV;
-
     public static final MTBlockItem TEST_TILE_ENTITY;
     static{
         TEST_ITEM = registerItem("test_item", new ItemStack(Items.DIAMOND), "Test Item");
-        TEST_BLOCK = registerBlockItemAndBlock("test_block", new ItemStack(Items.STONE), "Test Block");
+        TEST_BLOCK = registerBlockItem("test_block", new ItemStack(Items.STONE), "Test Block");
         TEST_TIERED_ULV = registerItem("test_tiered.ulv", new ItemStack(Items.LAPIS_LAZULI),"Test TileEntityTiered "+ MTValues.VNF[0]);
         TEST_TIERED_LV = registerItem("test_tiered.lv", new ItemStack(Items.LAPIS_LAZULI),"Test TileEntityTiered "+ MTValues.VNF[1]);
         TEST_TIERED_MV = registerItem("test_tiered.mv", new ItemStack(Items.LAPIS_LAZULI),"Test TileEntityTiered "+ MTValues.VNF[2]);

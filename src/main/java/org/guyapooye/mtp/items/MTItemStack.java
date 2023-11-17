@@ -3,7 +3,7 @@ package org.guyapooye.mtp.items;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
-import static org.guyapooye.mtp.utils.MTItems.registeredItems;
+import static org.guyapooye.mtp.items.MTItems.registeredItems;
 
 public class MTItemStack {
     public ItemStack itemStack;

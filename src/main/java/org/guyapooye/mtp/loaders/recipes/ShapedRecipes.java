@@ -1,7 +1,7 @@
 package org.guyapooye.mtp.loaders.recipes;
 
 import net.minecraft.world.item.Items;
-import org.guyapooye.mtp.utils.MTItems;
+import org.guyapooye.mtp.items.MTItems;
 
 public class ShapedRecipes {
     public static void init() {
